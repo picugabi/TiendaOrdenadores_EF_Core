@@ -1,0 +1,57 @@
+﻿@using TiendaOrdenadoresA.Comportamientos
+@model MVC_ComponentesCodeFirst.Models.Ordenador
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Ordenador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NombreOrdenador" class="control-label"></label>
+                <input asp-for="NombreOrdenador" class="form-control" />
+                <span asp-validation-for="NombreOrdenador" class="text-danger"></span>
+            </div>
+        <div class="form-group">
+        <label asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente==EnumTipoComponente.Procesador).OrdenadorId" class="control-label">Elija procesador</label>
+        <select asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.Procesador).OrdenadorId" class="form-select" asp-items="ViewBag.procesador">
+            <option selected="selected" value=""></option>
+        </select>
+        <span asp-validation-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.Procesador).OrdenadorId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+                <label asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.MemoriaRAM).OrdenadorId" class="control-label">Elija memoria RAM</label>
+                <select asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.MemoriaRAM).OrdenadorId" class="form-select" asp-items="ViewBag.ram">
+            <option selected="selected" value=""></option>
+        </select>
+                <span asp-validation-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.MemoriaRAM).OrdenadorId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+                <label asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.Almacenamiento).OrdenadorId" class="control-label">Elija disco duro</label>
+                <select asp-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.Almacenamiento).OrdenadorId" class="form-select" asp-items="ViewBag.almacenamiento">
+            <option selected="selected" value=""></option>
+        </select>
+                <span asp-validation-for="ComponentesAgregados!.Single(x=>x.TipoComponente == EnumTipoComponente.Almacenamiento).OrdenadorId" class="text-danger"></span>
+    </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

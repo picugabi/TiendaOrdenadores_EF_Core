@@ -1,0 +1,45 @@
+C:\TiendaOrdenadores\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.exe
+C:\TiendaOrdenadores\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.deps.json
+C:\TiendaOrdenadores\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.runtimeconfig.json
+C:\TiendaOrdenadores\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\TiendaOrdenadores\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.AssemblyReference.cache
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.GeneratedMSBuildEditorConfig.editorconfig
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfoInputs.cache
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfo.cs
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.CoreCompileInputs.cache
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\refint\TiendaOrdenadoresA.dll
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.genruntimeconfig.cache
+C:\TiendaOrdenadores\TiendaOrdenadores\obj\Debug\net6.0\ref\TiendaOrdenadoresA.dll
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.AssemblyReference.cache
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.GeneratedMSBuildEditorConfig.editorconfig
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfoInputs.cache
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfo.cs
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.CoreCompileInputs.cache
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\refint\TiendaOrdenadoresA.dll
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.exe
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.deps.json
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.runtimeconfig.json
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.genruntimeconfig.cache
+C:\hiberus\semana 6\sesion26\TiendaOrdenadores\obj\Debug\net6.0\ref\TiendaOrdenadoresA.dll
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.exe
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.deps.json
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.runtimeconfig.json
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.AssemblyReference.cache
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfoInputs.cache
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.AssemblyInfo.cs
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.csproj.CoreCompileInputs.cache
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.dll
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\refint\TiendaOrdenadoresA.dll
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.pdb
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\TiendaOrdenadoresA.genruntimeconfig.cache
+C:\Users\alexp\OneDrive\Escritorio\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Debug\net6.0\ref\TiendaOrdenadoresA.dll

@@ -1,0 +1,84 @@
+﻿@using Humanizer
+@model MVC_ComponentesCodeFirst.Models.Pedido
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+
+    <h4>@Model.NombrePedido</h4>
+    <hr />
+<dl class="row">
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.NombrePedido)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.NombrePedido)
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Calor)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Calor) ºC
+    </dd>
+    <dt class = "col-sm-2">
+        @Html.DisplayNameFor(model => model.Precio)
+    </dt>
+    <dd class = "col-sm-10">
+        @Html.DisplayFor(model => model.Precio) €
+    </dd>
+    @foreach (var itemOrdenador in Model.OrdenadoresAgregados!)
+    {
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(itemOrdenador=>itemOrdenador.OrdenadoresAgregados)
+        </dt>
+        <dd class = "col-sm-10">
+            @itemOrdenador.NombreOrdenador
+        </dd>
+    }
+</dl>
+<dl class="row">
+    @foreach (var itemComponente in Model.OrdenadoresAgregados)
+    {
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model=>itemComponente.NombreOrdenador)
+        </dt>
+
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => itemComponente.NombreOrdenador)
+        </dd>
+        
+
+        @foreach (var item in itemComponente.ComponentesAgregados!)
+        {
+            <dt class = "col-sm-2">
+                @Html.DisplayFor(model => item.TipoComponente)
+            </dt>
+
+            <dd class = "col-sm-10">
+                Tipo: @item.TipoComponente | Numero de serie: @item.NumeroDeSerie | Precio: @item.Precio € | 
+                Grados: @item.Calor ºC | Almacenamiento: @item.Almacenamiento.Megabytes()  | Cores: @item.Cores
+            </dd> 
+        }
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => itemComponente.Calor)
+        </dt>
+
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => itemComponente.Calor) ºC
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => itemComponente.Precio)
+        </dt>
+
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => itemComponente.Precio) €
+        </dd> 
+    }
+</dl> 
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,65 @@
+﻿@model IEnumerable<MVC_ComponentesCodeFirst.Models.Componente>?
+
+
+<table class="table">
+<thead>
+<tr>
+    <th>
+        @Html.DisplayNameFor(model => model.NumeroDeSerie)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.Precio)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.TipoComponente)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.Calor)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.Almacenamiento)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model => model.Cores)
+    </th>
+    <th>
+        @Html.DisplayNameFor(model=>model.OrdenadorId)
+    </th>
+    <th></th>
+</tr>
+</thead>
+<tbody>
+@foreach (var item in Model!) 
+{
+    <tr><td>
+            @Html.DisplayFor(modelItem => item.NumeroDeSerie)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Precio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoComponente)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Calor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Almacenamiento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cores)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem=>item.OrdenadorId)
+        </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+    </tr>
+    
+
+}
+</tbody>
+</table>

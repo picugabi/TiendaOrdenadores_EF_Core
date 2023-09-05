@@ -1,0 +1,16 @@
+﻿@using Humanizer
+@using System.Collections.Immutable
+@model IEnumerable<MVC_ComponentesCodeFirst.Models.Componente>
+
+@{
+    ViewData["Title"] = "Componentes";
+}
+
+<h1>Componentes Tienda</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    @await Component.InvokeAsync("ComponenteLista")
+</table>
