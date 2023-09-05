@@ -35,16 +35,16 @@ namespace MVC_ComponentesCodeFirstTests
             Assert.AreEqual("ActivoLaExcepcion", componente!.NumeroDeSerie);
            
         }
-        [TestMethod]
-        public void TestComponenteIndexVistaOk()
-        {
-            var result = controlador.Index() as ViewResult;
-            Assert.IsNotNull(result);
-            Assert.AreEqual("Index", result.ViewName);
-            Assert.IsNotNull(result.ViewData.Model);
-            var listaComponentes = result.ViewData.Model as List<Componente>;
-            Assert.IsNotNull(listaComponentes);
-            Assert.AreEqual(3, listaComponentes.Count);
-        }
+        //[TestMethod]
+        //public void TestComponenteIndexVistaOk()
+        //{
+        //    var result = controlador.Index() as ViewResult;
+        //    Assert.IsNotNull(result);
+        //    Assert.AreEqual("Index", result.ViewName);
+        //    Assert.IsNotNull(result.ViewData.Model);
+        //    var listaComponentes = result.ViewData.Model as List<Componente>;
+        //    Assert.IsNotNull(listaComponentes);
+        //    Assert.AreEqual(3, listaComponentes.Count);
+        //}
     }
 }

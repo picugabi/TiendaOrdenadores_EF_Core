@@ -1,0 +1,16 @@
+﻿using TiendaWebApi.Models;
+
+namespace TiendaWebApi.Services.PedidoRepository
+{
+    public interface IPedidoRepository
+    {
+        public Pedido? DamePedido(int id);
+        public IEnumerable<Pedido> ListaPedidos();
+        public void AddPedido(Pedido pedido);
+        public void BorrarPedido(int id);
+        public void ActualizarPedido(int id, Pedido pedido);
+        public double CalorTotal(int id);
+        public double PrecioTotal(int id);
+
+    }
+}

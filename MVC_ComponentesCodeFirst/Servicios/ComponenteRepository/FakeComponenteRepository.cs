@@ -9,9 +9,9 @@ public class FakeComponenteRepository : IComponenteRepository
 
     public FakeComponenteRepository()
     {
-        _componenteList.Add(new Componente() { Id = 0, NumeroDeSerie = "789_XCS", Precio = 134, Almacenamiento = 0, Calor = 10, Cores = 9, TipoComponente = EnumTipoComponente.Procesador });
-        _componenteList.Add(new Componente() { Id = 1, NumeroDeSerie = "879FH", Precio = 100, Almacenamiento = 512, Calor = 10, Cores = 0, TipoComponente = EnumTipoComponente.MemoriaRAM });
-        _componenteList.Add(new Componente() { Id = 2, NumeroDeSerie = "789_XX_2", Precio = 90, Almacenamiento = 1000000, Calor = 29, Cores = 0, TipoComponente = EnumTipoComponente.Almacenamiento });
+        _componenteList.Add(new Componente() { Id = 0, NumeroDeSerie = "789_XCS", Precio = 134, Almacenamiento = 0, Calor = 10, Cores = 9, TipoComponente = EnumTipoComponente.Procesador,OrdenadorId=1 });
+        _componenteList.Add(new Componente() { Id = 1, NumeroDeSerie = "879FH", Precio = 100, Almacenamiento = 512, Calor = 10, Cores = 0, TipoComponente = EnumTipoComponente.MemoriaRAM, OrdenadorId = 1 });
+        _componenteList.Add(new Componente() { Id = 2, NumeroDeSerie = "789_XX_2", Precio = 90, Almacenamiento = 1000000, Calor = 29, Cores = 0, TipoComponente = EnumTipoComponente.Almacenamiento, OrdenadorId = 1 });
     }
 
     public Componente? DameComponente(int id)
@@ -31,7 +31,7 @@ public class FakeComponenteRepository : IComponenteRepository
 
     public List<Componente>? ListaComponentes()
     {
-        return _componenteList;
+        return  _componenteList.ToList();
     }
 
     public void ActualizarComponente(int id, Componente componente)

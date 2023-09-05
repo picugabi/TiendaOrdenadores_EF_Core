@@ -50,12 +50,12 @@ namespace MVC_ComponentesCodeFirst.Servicios.PedidoRepository
 
         }
 
-        public Pedido AddPedido(Pedido pedido)
+        public void AddPedido(Pedido pedido)
         {
             
             _tiendaContext.Add(pedido);
             _tiendaContext.SaveChanges();
-            return pedido;
+           
 
         }
 

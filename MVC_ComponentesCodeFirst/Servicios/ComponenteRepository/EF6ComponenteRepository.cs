@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Azure.Messaging.ServiceBus;
+using Microsoft.EntityFrameworkCore;
 using MVC_ComponentesCodeFirst.Data;
 using MVC_ComponentesCodeFirst.Models;
 
@@ -7,6 +8,7 @@ namespace MVC_ComponentesCodeFirst.Servicios.ComponenteRepository;
 public class EF6ComponenteRepository : IComponenteRepository
 {
     private readonly TiendaContext _tiendaContext;
+
 
     public EF6ComponenteRepository(TiendaContext tiendaContext)
     {

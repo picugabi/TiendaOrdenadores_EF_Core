@@ -26,11 +26,11 @@ namespace MVC_ComponentesCodeFirst.Servicios.FacturaRepository
             _tiendaContext.SaveChanges();
         }
 
-        public Factura AddDFactura(Factura factura)
+        public void AddDFactura(Factura factura)
         {
             _tiendaContext.Add(factura);
             _tiendaContext.SaveChangesAsync();
-            return factura;
+            
         }
 
         public void BorrarFactura(int id)
@@ -73,13 +73,15 @@ namespace MVC_ComponentesCodeFirst.Servicios.FacturaRepository
         {
             var facturas = _tiendaContext.Facturas!
                 .Include(pf => pf.PedidoFactura)!
-                .ThenInclude(p => p.Pedido);
+                .ThenInclude(p => p.Pedido)
+                .AsNoTracking()
+                .ToList();
                 
             foreach (var itemOrdenador in facturas)
             {
                 DameFactura(itemOrdenador.Id);
             }
-            return facturas.AsNoTracking().ToList();
+            return facturas;
         }
 
         public double PrecioTotal(int id)

@@ -7,7 +7,7 @@ namespace MVC_ComponentesCodeFirst.Servicios.OrdenadorRepository
     {
         public Ordenador? DameOrdenador(int id);
         public IEnumerable<Ordenador> ListaOrdenadores();
-        public Ordenador AddOrdenador(Ordenador ordenador);
+        public void AddOrdenador(Ordenador ordenador);
         public void BorrarOrdenador(int id);
         public void ActualizarOrdenador(int id, Ordenador ordenador);
         public double CalorTotal(int id);

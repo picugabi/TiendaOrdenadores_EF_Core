@@ -1,4 +1,4 @@
-﻿{
+{
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -14,14 +14,18 @@
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5155",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://mvccomponentescodefirstv.vault.azure.net/",
+        "AZURE_USERNAME": "alexpicu18@gmail.com"
       }
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://mvccomponentescodefirstv.vault.azure.net/",
+        "AZURE_USERNAME": "alexpicu18@gmail.com"
       }
     }
   }

@@ -41,9 +41,13 @@
                 @Html.DisplayFor(modelItem => item.Precio) €
             </td>
             <td>
-                @foreach (var itemPedido in item.PedidoFactura!)
+                @if (item.PedidoFactura != null)
                 {
-                    @Html.DisplayFor(modelItem=>itemPedido.Pedido!.NombrePedido) <br/>
+                    @foreach (var itemPedido in item.PedidoFactura!)
+                    {
+                        @Html.DisplayFor(modelItem=>itemPedido.Pedido!.NombrePedido) <br/>
+                    }
+
                 }
             </td>
             <td>

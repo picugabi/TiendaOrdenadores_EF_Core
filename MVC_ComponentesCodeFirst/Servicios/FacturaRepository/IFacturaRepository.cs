@@ -6,7 +6,7 @@ namespace MVC_ComponentesCodeFirst.Servicios.FacturaRepository
     {
         public Factura? DameFactura(int id);
         public IEnumerable<Factura> ListaFacturas();
-        public Factura AddDFactura(Factura factura);
+        public void AddDFactura(Factura factura);
         public void BorrarFactura(int id);
         public void ActualizarFactura(int id, Factura factura);
         public double CalorTotal(int id);

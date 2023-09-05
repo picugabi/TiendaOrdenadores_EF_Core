@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MVC_ComponentesCodeFirst
+build_property.RootNamespace = MVC_ComponentesCodeFirst
+build_property.ProjectDir = C:\hiberus\semana 9\MVC_ComponentesCodeFirst\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\hiberus\semana 9\MVC_ComponentesCodeFirst
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Pages/Components/ComponenteLista/ComponenteLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFBhZ2VzXENvbXBvbmVudHNcQ29tcG9uZW50ZUxpc3RhXENvbXBvbmVudGVMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Pages/Components/ComponenteUnico/Componenteunico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFBhZ2VzXENvbXBvbmVudHNcQ29tcG9uZW50ZVVuaWNvXENvbXBvbmVudGV1bmljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Components/ComponenteLista/ComponenteLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXENvbXBvbmVudHNcQ29tcG9uZW50ZUxpc3RhXENvbXBvbmVudGVMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Components/ComponenteUnico/Componenteunico.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXENvbXBvbmVudHNcQ29tcG9uZW50ZVVuaWNvXENvbXBvbmVudGV1bmljby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Componentes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXENvbXBvbmVudGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/AgregaFactura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXEFncmVnYUZhY3R1cmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Facturas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXEZhY3R1cmFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Ordenadores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXE9yZGVuYWRvcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Ordenadores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXE9yZGVuYWRvcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Ordenadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXE9yZGVuYWRvcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Ordenadores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXE9yZGVuYWRvcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Ordenadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXE9yZGVuYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Pedidos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFBlZGlkb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Pedidos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFBlZGlkb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Pedidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFBlZGlkb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Pedidos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFBlZGlkb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Pedidos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFBlZGlkb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzQ29kZUZpcnN0XFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-o8ol3f7mmc
+
+[C:/hiberus/semana 9/MVC_ComponentesCodeFirst/MVC_ComponentesDataBaseFirst/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TVZDX0NvbXBvbmVudGVzRGF0YUJhc2VGaXJzdFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-bk5rblvqkb

@@ -1,0 +1,14 @@
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Release\net6.0\TiendaOrdenadoresA.exe
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Release\net6.0\TiendaOrdenadoresA.deps.json
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Release\net6.0\TiendaOrdenadoresA.runtimeconfig.json
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Release\net6.0\TiendaOrdenadoresA.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\bin\Release\net6.0\TiendaOrdenadoresA.pdb
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.GeneratedMSBuildEditorConfig.editorconfig
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.AssemblyInfoInputs.cache
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.AssemblyInfo.cs
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.csproj.CoreCompileInputs.cache
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\refint\TiendaOrdenadoresA.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.pdb
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\TiendaOrdenadoresA.genruntimeconfig.cache
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\TiendaOrdenadores\obj\Release\net6.0\ref\TiendaOrdenadoresA.dll

@@ -51,12 +51,16 @@
             @Html.DisplayFor(modelItem => item.PedidoId)
         </td>
         <td>
-            @foreach (var itemComponente in item.ComponentesAgregados!)
+            @if (item.ComponentesAgregados != null)
             {
-                <nbsp> @Html.DisplayFor(item => itemComponente.TipoComponente) </nbsp>
-                @Html.DisplayFor(item => itemComponente.NumeroDeSerie)<br/>
+                @foreach (var itemComponente in item.ComponentesAgregados!)
+                {
+                    <nbsp> @Html.DisplayFor(item => itemComponente.TipoComponente) </nbsp>
+                    @Html.DisplayFor(item => itemComponente.NumeroDeSerie)<br/>
+                }
+
             }
-        </td>
+         </td>
         <td>
             <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
             <a asp-action="Details" asp-route-id="@item.Id">Details</a> |

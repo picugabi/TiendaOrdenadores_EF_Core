@@ -17,14 +17,35 @@ namespace MVC_ComponentesCodeFirst
         {
             
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddDbContext<TiendaContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddScoped<IComponenteRepository, EF6ComponenteRepository>();
+
+
+            builder.Services.AddScoped<IComponenteRepository, ComponenteApiService>();
             builder.Services.AddScoped<IOrdenadorRepository, EF6OrdenadorRepository>();
             builder.Services.AddScoped<IPedidoRepository, EF6PedidosRepository>();
             builder.Services.AddScoped<IFacturaRepository, EF6FacturaRepository>();
+
+
+  
+            
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+                        builder.Services.AddEndpointsApiExplorer();
+
+                        builder.Services.AddSwaggerGen();
+
+                        builder.Services.AddDbContext<TiendaContext>(options =>
+                            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+            builder.Services.AddHttpClient("ComponenteApi",
+                config =>
+                {
+                    config.BaseAddress = new Uri(builder.Configuration["ServicesUrl:Componente"]);
+
+                });
+
 
 
             var app = builder.Build();

@@ -48,10 +48,13 @@
             @Html.DisplayFor(modelItem => item.Precio) €
         </td>
         <td>
-            @foreach (var item1 in item.OrdenadoresAgregados!)
+            @if (item.OrdenadoresAgregados != null)
             {
-                @Html.DisplayFor(modelItem => item1.NombreOrdenador)
-                <br/>
+                @foreach (var item1 in item.OrdenadoresAgregados!)
+                {
+                    @Html.DisplayFor(modelItem => item1.NombreOrdenador)
+                    <br/>
+                }
             }
         </td>
         <td>

@@ -10,6 +10,7 @@ using MVC_ComponentesCodeFirst;
 using MVC_ComponentesCodeFirst.Data;
 using MVC_ComponentesCodeFirst.Models;
 using MVC_ComponentesCodeFirst.Servicios.ComponenteRepository;
+using TiendaOrdenadoresA.Comportamientos;
 
 namespace MVC_ComponentesCodeFirst.Controllers
 {
@@ -23,9 +24,9 @@ namespace MVC_ComponentesCodeFirst.Controllers
         }
 
         // GET: Componentes
-        public ActionResult Index()
+        public async Task<ActionResult> Index()
         {
-            return View("Index",_componenteRepository.ListaComponentes());
+            return View("Index", _componenteRepository.ListaComponentes()!);
         }
 
         // GET: Componentes/Details/5
@@ -38,6 +39,7 @@ namespace MVC_ComponentesCodeFirst.Controllers
         // GET: Componentes/Create
         public ActionResult Create()
         {
+            ViewData["Tipo"] = new SelectList(Enum.GetNames(typeof(EnumTipoComponente)));
             return View();
         }
 

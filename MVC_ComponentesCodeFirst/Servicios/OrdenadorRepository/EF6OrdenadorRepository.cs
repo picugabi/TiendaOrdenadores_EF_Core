@@ -14,31 +14,36 @@ namespace MVC_ComponentesCodeFirst.Servicios.OrdenadorRepository
     {
         private readonly TiendaContext _tiendaContext;
 
+        
         public EF6OrdenadorRepository(TiendaContext tiendaContext)
         {
             _tiendaContext = tiendaContext;
 
             DbInitializerOrdenador.Initialize(_tiendaContext);
 
+
+
         }
 
         public IEnumerable<Ordenador> ListaOrdenadores()
         {
             var ordenadores = _tiendaContext.Ordenadores!
-                .Include(c=>c.ComponentesAgregados);
+                .Include(c=>c.ComponentesAgregados)
+                .AsNoTracking()
+                .ToList();
             foreach (var itemOrdenador in ordenadores)
             {
                 DameOrdenador(itemOrdenador.Id);
             }
-            return ordenadores.AsNoTracking().ToList();
+            return ordenadores;
 
         }
         
-        public Ordenador AddOrdenador(Ordenador ordenador)
+        public void AddOrdenador(Ordenador ordenador)
         {
             _tiendaContext.Add(ordenador);
             _tiendaContext.SaveChanges();
-            return ordenador;
+            
         }
 
 

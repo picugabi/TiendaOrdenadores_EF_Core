@@ -8,7 +8,7 @@ namespace MVC_ComponentesCodeFirst.Data
 {
     public static class DbInitializerComponente
     {
-
+        
         public static void Initialize(TiendaContext context)
         {
             context.Database.EnsureCreated();
