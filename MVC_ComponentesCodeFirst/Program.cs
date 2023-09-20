@@ -19,7 +19,7 @@ namespace MVC_ComponentesCodeFirst
             var builder = WebApplication.CreateBuilder(args);
 
 
-            builder.Services.AddScoped<IComponenteRepository, ComponenteApiService>();
+            builder.Services.AddScoped<IComponenteRepository, EF6ComponenteRepository>();
             builder.Services.AddScoped<IOrdenadorRepository, EF6OrdenadorRepository>();
             builder.Services.AddScoped<IPedidoRepository, EF6PedidosRepository>();
             builder.Services.AddScoped<IFacturaRepository, EF6FacturaRepository>();

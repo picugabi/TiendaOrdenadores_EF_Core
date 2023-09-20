@@ -287,3 +287,7 @@ C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\obj\Releas
 C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\obj\Release\net6.0\MVC_ComponentesCodeFirst.pdb
 C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\obj\Release\net6.0\MVC_ComponentesCodeFirst.genruntimeconfig.cache
 C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\obj\Release\net6.0\ref\MVC_ComponentesCodeFirst.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\bin\Release\net6.0\Azure.Core.Amqp.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\bin\Release\net6.0\Azure.Messaging.ServiceBus.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\bin\Release\net6.0\Microsoft.Azure.Amqp.dll
+C:\hiberus\semana 9\MVC_ComponentesCodeFirst\MVC_ComponentesCodeFirst\bin\Release\net6.0\System.Diagnostics.DiagnosticSource.dll
