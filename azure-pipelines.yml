@@ -7,6 +7,10 @@ trigger:
 - main
 
 pool:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'https://github.com/picugabi/TiendaOrdenadores_EF_Core/blob/main/MVC_ComponentesCodeFirst/MVC_ComponentesCodeFirst.csproj.user'
   vmImage: 'windows-latest'
 
 variables:
